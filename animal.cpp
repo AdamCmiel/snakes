@@ -1,4 +1,4 @@
-#include <iostream>
+#include <string>
 
 namespace Animal {
   class Base {

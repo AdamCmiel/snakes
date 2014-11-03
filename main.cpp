@@ -1,4 +1,3 @@
-#include <functional>
 #include "snakes/coralSnakes.cpp"
 
 using namespace Snakes;

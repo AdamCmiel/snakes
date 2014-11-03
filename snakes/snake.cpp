@@ -1,6 +1,4 @@
 #include <iostream>
-#include <functional>
-#include <vector>
 #include "../animal.cpp"
 #include "types.cpp"
 
