@@ -1,5 +1,5 @@
 #include <functional>
-#include "coralSnakes.cpp"
+#include "snakes/coralSnakes.cpp"
 
 using namespace Snakes;
 
@@ -9,9 +9,8 @@ std::string danceParty() {
 
 int main() {
     int i = 45;
-    //Den<CoralSnake> den (i);
-    Den<Snake> den (i);
-    std::function<std::string()> callback = &danceParty;
+    Den<CoralSnake> den (i);
+    sFunc callback = &danceParty;
     den.setDanceMove(callback);
     den.writhe();
     den.is_writhing();

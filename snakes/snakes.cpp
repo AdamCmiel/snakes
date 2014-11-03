@@ -1,11 +1,10 @@
 #include <iostream>
 #include <functional>
 #include <vector>
-#include "animal.cpp"
-
-typedef std::function<std::string()> sFunc;
+#include "../animal.cpp"
 
 namespace Snakes {
+  typedef std::function<std::string()> sFunc;
   class Snake : public Animal::Base {
       static std::string name;
     public:
