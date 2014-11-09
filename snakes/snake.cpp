@@ -1,20 +1,9 @@
 #include <iostream>
-#include "../animal.cpp"
-#include "types.cpp"
+#include "../animal.hpp"
+#include "./snake.hpp"
+#include "./types.hpp"
 
 namespace Snakes {
-  class Snake : public Animal::Base {
-      static std::string name;
-    public:
-      sFunc danceMove;
-      int i;
-      Snake(const int ii): i(ii) {};
-      void writhe();
-      std::string getName() override;
-      virtual std::string dance();
-      virtual void setDanceMove(sFunc cb);
-  };
-
   std::string Snake::name = "snake";
 
   std::string Snake::getName() {

@@ -1,32 +1,20 @@
-#include <iostream>
-#include <vector>
-#include "types.cpp"
+#include "./den.hpp"
 
 namespace Snakes {
   template<typename S>
-  class Den {
-      std::string type;
-      int i;
-      bool writhing;
-      std::vector<S*> snakes;
-    public:
-      Den(const int n) {
-        writhing = false;
-        i = n;
-        for (int j = 0; j < n; j++) {
-            S * s = new S(j);
-            snakes.push_back(s);
-        }
-      }
-      virtual ~Den() {
-        for (auto snake : snakes) {
-            delete snake;
-        }
-      }
-      void writhe();
-      void is_writhing();
-      void setDanceMove(sFunc cb);
-  };
+  Den<S>::Den(const int n) {
+     writhing = false;
+     i = n;
+     for (int j = 0; j < n; j++) {
+         S * s = new S(j);
+         snakes.push_back(s);
+     }
+  }
+
+  template<typename S>
+  Den<S>::~Den() {
+    for (auto snake : snakes) delete snake;
+  }
 
   template<typename S>
   void Den<S>::writhe() {

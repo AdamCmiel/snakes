@@ -1,4 +1,6 @@
-#include "snakes/coralSnakes.cpp"
+//#include "./snakes/snakes.hpp"
+#include "./snakes/coralSnake.hpp"
+#include "./snakes/den.hpp"
 
 using namespace Snakes;
 

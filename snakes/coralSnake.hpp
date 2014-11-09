@@ -1,4 +1,5 @@
-#include "snakes.cpp"
+#pragma once
+#include "./snake.hpp"
 
 namespace Snakes {
   class CoralSnake : public Snake {
@@ -7,11 +8,5 @@ namespace Snakes {
       CoralSnake(const int i) : Snake(i) {};
       std::string getName() override;
   };
-
-  std::string CoralSnake::name = "coral";
-
-  std::string CoralSnake::getName() {
-    return CoralSnake::name;
-  }
 }
 
