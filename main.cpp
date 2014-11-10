@@ -1,6 +1,8 @@
-//#include "./snakes/snakes.hpp"
 #include "./snakes/coralSnake.hpp"
 #include "./snakes/den.hpp"
+#include "./snakes/den.cpp"
+
+//must include den.cpp because of template portability
 
 using namespace Snakes;
 

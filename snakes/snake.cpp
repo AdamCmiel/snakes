@@ -1,5 +1,4 @@
 #include <iostream>
-#include "../animal.hpp"
 #include "./snake.hpp"
 #include "./types.hpp"
 
