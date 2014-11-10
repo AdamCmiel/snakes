@@ -16,3 +16,4 @@ namespace Snakes {
       virtual void setDanceMove(sFunc cb);
   };
 }
+

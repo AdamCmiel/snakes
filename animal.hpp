@@ -7,3 +7,4 @@ namespace Animal {
             virtual std::string getName() =0;
     };
 }
+
