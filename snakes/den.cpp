@@ -1,4 +1,4 @@
-#include "./den.hpp"
+#include "den.hpp"
 
 namespace Snakes {
   template<typename S>

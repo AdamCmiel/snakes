@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include "../animal.hpp"
-#include "./types.hpp"
+#include "types.hpp"
 
 namespace Snakes {
   template<typename S>

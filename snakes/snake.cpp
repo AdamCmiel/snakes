@@ -1,6 +1,6 @@
 #include <iostream>
-#include "./snake.hpp"
-#include "./types.hpp"
+#include "snake.hpp"
+#include "types.hpp"
 
 namespace Snakes {
   std::string Snake::name = "snake";

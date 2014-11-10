@@ -1,5 +1,5 @@
 #pragma once
-#include "./snake.hpp"
+#include "snake.hpp"
 
 namespace Snakes {
   class CoralSnake : public Snake {

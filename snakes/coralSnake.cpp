@@ -1,4 +1,4 @@
-#include "./coralSnake.hpp"
+#include "coralSnake.hpp"
 
 namespace Snakes {
     std::string CoralSnake::name = "coral";

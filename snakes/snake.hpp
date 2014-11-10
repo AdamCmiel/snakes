@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include "../animal.hpp"
-#include "./types.hpp"
+#include "types.hpp"
 
 namespace Snakes {
   class Snake : public Animal::Base {
